@@ -45,4 +45,4 @@ public class GlobalExceptionHandler {
         respuesta.put("mensaje", ex.getMessage());
         return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(respuesta);
     }
-}
+}//
