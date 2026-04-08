@@ -17,7 +17,7 @@ public class Tarea {
     private String titulo;
 
     @NotBlank(message = "La descripción es obligatoria")
-    private String descripcion;
+    private String descripcion;//
 
     @NotBlank(message = "El estado es obligatorio")
     private String estado;
